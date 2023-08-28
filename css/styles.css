@@ -11003,10 +11003,15 @@ header.masthead {
   padding-top: calc(8rem + 57px);
   padding-bottom: 8rem;
   background: no-repeat center center;
-  background-color: #6c757d;
+  background-color: #fcd34d;
   background-size: cover;
   background-attachment: scroll;
 }
+
+header.mastheadAbout {
+  background-size: 45%;
+}
+
 header.masthead:before {
   content: "";
   position: absolute;
@@ -11043,6 +11048,7 @@ header.masthead .site-heading .subheading {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 header.masthead .post-heading h1,
 header.masthead .post-heading .h1 {
   font-size: 2.25rem;
