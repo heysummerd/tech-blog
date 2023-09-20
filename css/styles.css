@@ -10874,6 +10874,10 @@ body {
   font-size: 1.25rem;
 }
 
+.resume {
+  margin: auto;
+}
+
 hr {
   border-color: #dee2e6;
   opacity: 1;
